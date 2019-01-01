@@ -57,7 +57,11 @@ def run(songs)
     puts"Please enter a command:"
     input = gets.chomp
     case input
-    when
+    when "list"
+      list(songs)
+    when "play"
+      play(songs)
+    
     
     input = "exit"
   end
