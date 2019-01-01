@@ -46,3 +46,10 @@ def play(songs)
 end
 
 #puts play(songs)
+
+def exit_jukebox
+end
+
+def run
+end
+
