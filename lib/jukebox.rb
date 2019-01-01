@@ -27,6 +27,7 @@ def list(songs)
   end
 end
 
+=begin
 def play(songs)
   puts "Please enter a song name or number:"
   input = ""
@@ -44,3 +45,4 @@ def play(songs)
     puts "Playing #{songs[input - 1]}"
   end
 end
+=end
