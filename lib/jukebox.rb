@@ -53,6 +53,7 @@ def run
   input = ""
   
   while input != "exit"
+    help
     
   end
   
