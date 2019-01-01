@@ -43,3 +43,5 @@ def play(songs)
     puts "Playing #{songs[input - 1]}"
   end
 end
+
+
