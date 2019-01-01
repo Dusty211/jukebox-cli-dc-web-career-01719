@@ -60,4 +60,4 @@ def run(songs)
   
 end
 
-#run(songs)
+run(songs)
