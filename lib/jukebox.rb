@@ -56,6 +56,8 @@ def run(songs)
     help
     puts"Please enter a command:"
     input = gets.chomp
+    case input
+    when
     
     input = "exit"
   end
