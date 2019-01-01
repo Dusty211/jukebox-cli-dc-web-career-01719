@@ -35,8 +35,7 @@ def play(songs)
     input = gets.chomp
     input = input.to_i if ((1..songs.length).to_a.include?(input.to_i))
     unless (songs.include?(input)) || ((1..songs.length).to_a.include?(input))
-      input = ""
-      puts "Invalid input, please try again"
+      return "Invalid input, please try again"
     end
   end
   if input.class == String
