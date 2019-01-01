@@ -29,7 +29,6 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
-  #input = ""
   #while input == ""
     input = gets.chomp
     input = input.to_i if ((1..songs.length).to_a.include?(input.to_i))
@@ -37,7 +36,6 @@ def play(songs)
       puts "Invalid input, please try again"
       return nil
     end
-  #end
   if input.class == String
     puts "Playing #{input}"
   else
@@ -63,10 +61,6 @@ def run(songs)
     when "help"
       help
     end
-    #input = "exit"
   end
   exit_jukebox
 end
-
-
-run(songs)
