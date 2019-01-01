@@ -29,15 +29,15 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
-  input = ""
-  while input == ""
+  #input = ""
+  #while input == ""
     input = gets.chomp
     input = input.to_i if ((1..songs.length).to_a.include?(input.to_i))
     unless (songs.include?(input)) || ((1..songs.length).to_a.include?(input))
       puts "Invalid input, please try again"
-      input = ""
+      #input = ""
     end
-  end
+  #end
   if input.class == String
     puts "Playing #{input}"
   else
