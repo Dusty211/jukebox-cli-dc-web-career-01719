@@ -54,7 +54,7 @@ def run(songs)
   
   while input != "exit"
     help
-    
+    input = "exit"
   end
   
 end
