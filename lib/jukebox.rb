@@ -35,7 +35,7 @@ def play(songs)
     input = input.to_i if ((1..songs.length).to_a.include?(input.to_i))
     unless (songs.include?(input)) || ((1..songs.length).to_a.include?(input))
       puts "Invalid input, please try again"
-      #input = ""
+      return nil
     end
   #end
   if input.class == String
